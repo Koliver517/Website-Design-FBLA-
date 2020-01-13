@@ -1,22 +1,131 @@
 @charset "UTF-8";
 
-/*MOBILE*/ @media only screen and (min-width:320px) and (max-width:480px){
+/*MOBILE*/ @media only screen and (min-width:300px) and (max-width:767px) {
     /*Fonts*/
     @import url();
-    /*Font Library
-    *Place fonts here*
-    */
+    /*Font Library*
+    *Place fonts here*/
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+    
 
     /*HTML Styles*/
-        html{
-            background-color:red;
+        * {
+            padding: 0;
+            margin: 0;
         }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: 5% 10% 20% 20% 20% 10% 20% 7% 1% 1%;
+            grid-template-columns: 25% 25% 25% 25%;
+            width: 100%;
+        }
+
     /*Nav Styles*/
+        .navigation-bar {
+            grid-row: 1/2;
+            grid-column: 1/5;
+            background-color: #FC4445;
+            font-size: 1.8vw;
+            padding: 1%;
+            padding-top: 2%;
+            height: 100%;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .navigation-logo {
+            width: 4.2%;
+            left: 31%;
+            top: 1.2%;
+            position: absolute;
+            transition: 0.3s ease;
+        }
+
+
+        .navigation-bar a { 
+            color: white;
+            text-decoration: none;
+            padding: 1%;
+            transition: 0.2s ease;
+        }
+
+        .navigation-bar a:hover { 
+            color: white;
+            transition: 0.2s ease;
+        }
+
 
     /*Body Styles*/
+        .image-box {
+            margin-top: -4.37%;
+            margin-left: 0.13%;
+            margin-right: 0.13%;
+            grid-row: 3/6;
+            grid-column: 1/5;
+            background-image: url(../images/stock1.jpg);
+            background-position: center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 20%;
+        }
 
+        .CloudLine {
+            margin-top: -15%;
+            margin-bottom: 50%;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .content-box {
+            grid-row: 6/8;
+            grid-column: 1/5;
+            background-image: url(../images/back_pattern.png);
+            background-repeat: repeat;
+            color: black;
+            height: 100%;
+            padding: 2%;
+        }
+
+        .mini-box1 {
+            width: 20%;
+            position: absolute;
+            left: 5%;
+            background-color: rgba(118, 118, 118, 0.6);
+            padding: 3%;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        
+        .mini-box2 {
+            width: 20%;
+            position: absolute;
+            left: 37%;
+            background-color: rgba(118, 118, 118, 0.6);
+            padding: 3%;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .mini-box3 {
+            width: 20%;
+            position: absolute;
+            left: 69%;
+            background-color: rgba(118, 118, 118, 0.75);
+            padding: 3%;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
     /*Footer Styles*/
-
+        .footer {
+            grid-row: 8/10;
+            grid-column: 1/5;
+            background-color: #767676;
+            text-align: center;
+            padding-top: 1.5%;
+            font-size: 2vw;
+            font-family: 'Josefin Sans', sans-serif;
+        }
 }
 
 /*TABLET*/ @media only screen and (min-width:768px) and (max-width:1024px){
@@ -27,9 +136,7 @@
     */
 
     /*HTML Styles*/
-        html{
-            background-color:rgba(217, 255, 0, 0.87);
-        }
+    
     /*Nav Styles*/
 
     /*Body Styles*/
@@ -46,9 +153,7 @@
     */
 
     /*HTML Styles*/
-        html{
-            background-color:purple;
-        }
+
     /*Nav Styles*/
 
     /*Body Styles*/
