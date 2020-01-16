@@ -35,7 +35,7 @@
             height: 75%;
             text-align: center;
             font-family: 'Josefin Sans', sans-serif;
-            z-index:4;
+            z-index: 4;
         }
 
         .navigation-logo {
@@ -44,33 +44,33 @@
             top: 0px;
             position: absolute;
             transition: 0.3s ease;
-            z-index:4;
+            z-index: 4;
         }
 
         .navigation-logo:hover {
-            width:55px;
+            width: 55px;
         }
 
         .navigation-bar a.a { 
             color: white;
             text-decoration: none;
             transition: 0.2s ease;
-            right:120px;
+            right: 120px;
             position: absolute;
-            top:8px;
+            top: 8px;
             font-family: 'Fredoka One', cursive;
-            border-radius:5px;
+            border-radius: 5px;
         }
 
         .navigation-bar a.b { 
             color: white;
             text-decoration: none;
             transition: 0.2s ease;
-            right:54px;
+            right: 54px;
             position: absolute;
-            top:8px;
+            top: 8px;
             font-family: 'Fredoka One', cursive;
-            border-radius:5px;
+            border-radius: 5px;
         }
 
         .navigation-bar a.c { 
@@ -132,6 +132,7 @@
         }
 
         .mini-box1 {
+            margin-top: 4%;
             width: 20%;
             position: absolute;
             left: 5%;
@@ -141,7 +142,7 @@
             font-family: 'Amatic SC', cursive;
             z-index:1;
             top: 192px;
-            color:transparent; 
+            
             height:5px;
             border-radius:0px 0px 50px 50px;
         }
@@ -156,7 +157,7 @@
             font-family: 'Amatic SC', cursive;
             z-index:1;
             top: 185px;
-            height:10px;
+            height: 10px;
             color:white;
             transition:.7s ease;
         }
@@ -272,10 +273,52 @@
             grid-row: 7/8;
             grid-column: 1/5;
             background-color: #767676;
-            text-align: center;
-            padding-top: 1.5%;
+            color: white;
+            font-size: 2.5vw;
+            position: absolute;
+            left: 0;
+            bottom: -30%;
+            padding: 3%;
+            width: 94.02%;
+            font-family: 'Fredoka One', cursive;
+        }
+
+        .footerN {
+            float: left;
+            font-size: 3vw;
+        }
+
+        .contact-us {
+            text-decoration: none;
+            color: white;
+            left: 72%;
+            position: absolute;
             font-size: 2vw;
-            font-family: 'Josefin Sans', sans-serif;
+            padding-top: 0.3%;
+        }
+
+        .facebook {
+            width: 2.5%;
+            clear: both;
+            position: absolute;
+            left: 95%;
+            padding-top: 0.3%;
+        }
+
+        .twitter {
+            width: 2.5%;
+            clear: both;
+            position: absolute;
+            left: 90%;
+            padding-top: 0.3%;
+        }
+
+        .instagram {
+            width: 2.5%;
+            clear: both;
+            position: absolute;
+            left: 85%;
+            padding-top: 0.3%;
         }
 
         /*Footer for Booking page*/
