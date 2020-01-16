@@ -87,6 +87,11 @@
             padding: 2%;
         }
 
+        .content-box h1 {
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
         .mini-box1 {
             width: 20%;
             position: absolute;
