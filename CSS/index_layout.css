@@ -126,9 +126,13 @@
             padding: 2%;
         }
 
-        .content-box h1 {
-            text-align: center;
-            font-family: 'Josefin Sans', sans-serif;
+    
+        .content-boxV2 {
+            grid-row: 3/7;
+            grid-column: 1/5;
+            background-image: url(../images/back_pattern.png);
+            background-repeat: repeat;
+            padding: 2%;
         }
 
         .mini-box1 {
@@ -142,9 +146,22 @@
             font-family: 'Amatic SC', cursive;
             z-index:1;
             top: 192px;
-            
+            color: transparent;
             height:5px;
             border-radius:0px 0px 50px 50px;
+        }
+
+        .mini-box1-2 {
+            top: 80%;
+            width: 20%;
+            color: white;
+            position: absolute;
+            left: 5%;
+            padding: 3%;
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            background-color: #767676;
+            z-index:1;
         }
 
         .mini-box1:hover {
@@ -176,6 +193,18 @@
             border-radius:0px 0px 50px 50px;
         }
 
+        .mini-box2-2 {
+            width: 20%;
+            top: 80%;
+            position: absolute;
+            color: white;
+            left: 37%;
+            padding: 3%;
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            background-color: #767676;
+        }
+
         .mini-box2:hover {
             width: 20%;
             position: absolute;
@@ -202,6 +231,18 @@
             color: transparent;
             height:5px;
             border-radius:0px 0px 50px 50px;
+        }
+
+        .mini-box3-2 {
+            width: 20%;
+            position: absolute;
+            left: 69%;
+            top: 80%;
+            padding: 3%;
+            text-align: center;
+            color: white;
+            font-family: 'Amatic SC', cursive;
+            background-color: #767676;
         }
 
         .mini-box3:hover {
