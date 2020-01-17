@@ -8,6 +8,15 @@
         <style>
             @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One&display=swap');
             
+            .content-box1 {
+            grid-row: 3/6;
+            grid-column: 1/5;
+            background-repeat: repeat;
+            color: black;
+            height: 145%;
+            padding: 2%;
+        }
+
             .img1{
                 width:200px;
                 height:100px;
@@ -15,7 +24,13 @@
                 left:-25px;
                 top:30px;
                 position:absolute;
+                z-index:2;
             }
+
+            .img1:hover{
+                opacity:inset;
+            }
+
 
             .img2 {
                 width:200px;
@@ -24,6 +39,7 @@
                 left:-25px;
                 top:40px;
                 position:absolute;
+                z-index:6;
             }
 
             .img3{
@@ -36,10 +52,11 @@
             }
 
             .mem{
-                margin-top: 8px;
+                margin-top: 0px;
             margin-bottom: 50%;
             font-family: 'Fredoka One', cursive;
             font-size: 50px;
+            text-shadow:0px 5px rgb(255, 252, 53);
             }
 
             .mini-box1 > h1 {
@@ -63,18 +80,6 @@
                 position: absolute;
             }
 
-            .mini-box1:hover::after .textbox1 {
-                background-color:black;
-                position:absolute;
-                top:300px;
-                left:40px;
-                color:white;
-                width:120px;
-                text-align: center;
-                z-index:6;
-                height:100px;
-                font-size:15px;
-            }
         </style>
     </head>
     <body>
@@ -90,10 +95,21 @@
                 <h1 class="mem">Membership</h1>
             </div>
     
-            <div class="content-box">
+            <div class="content-box1">
                 <div class="mini-box1">
                     <h1>Silver</h1>
                     <img src="IMGS/SilverLogo.png" class="img1">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Neck Pillow</li>
+                        <li>Choice of drink/snack</li>
+                        <li>Seating with extra foot space</li>
+                        <li>Magazines</li>
+                    </ul>
                 </div>
 
                 <div class="textbox1">Hello</div>
@@ -101,11 +117,35 @@
                 <div class="mini-box2">
                     <h1>Bronze</h1>
                     <img src="IMGS/BronzeLogo.png" class="img2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <ul>
+                        <li>Snacks</li>
+                        <li>Water</li>
+                        <li>Mini seat Pillow</li>
+                        <li>Newspapers</li>
+                    </ul>
                 </div>
     
                 <div class="mini-box3">
                     <h1>Gold</h1>
                     <img src="IMGS/GoldLogo.png" class="img3">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div style="font-size: 12.5px;">
+                    <ul>
+                        <li>Personalized Premium Beverages and Meals</li>
+                        <li>Single row seating with seat adjustments</li>
+                        <li>Plush Throw pillows and Blankets</li>
+                        <li>Choice of electronic entertainment</li>
+                    </ul>
+                    </div>
                 </div>
             </div>
     

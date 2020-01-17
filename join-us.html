@@ -5,32 +5,61 @@
         <link rel="stylesheet" type="text/css" href="CSS/index_layout.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/sample-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One&display=swap');
+
+            .mem{
+                margin-top: 8px;
+                margin-bottom: 50%;
+                font-family: 'Fredoka One', cursive;
+                font-size: 50px;
+            }
+
+            .image-boxb {
+                margin-top: 0px;
+                margin-left: 0.13%;
+                margin-right: 0.13%;
+                grid-row: 1/2;
+                grid-column: 1/5;
+                background-image: url('IMGS/1.jpg');
+                background-position: center;
+                background-size: cover;
+                color: white;
+                text-align: center;
+                padding: 20%;
+                z-index:2;
+                height:10px;
+                border-bottom:23px solid rgb(236, 87, 61);
+                width:323px
+            }
+
+            .joinimg {
+                width:100px;
+                height:100px;
+                position: absolute;
+                left:30px;
+                top:20px;
+                float:left;
+                background-color:blue;
+            }
+        </style>
     </head>
     <body>
         <div class="grid-container">
             <div class="navigation-bar">
-                <a href="index.html"><img class="navigation-logo" src="images/stock2.png"></a>
-                <a href="booking.html">Booking</a>
-                <a href="membership.html">Membership</a>
-                <a href="join-us.html">Join Us</a>
+                <a href="index.html"><img class="navigation-logo" src="IMGS/Clogo1.png"></a>
+                <a href="booking.html" class="a">Booking</a>
+                <a href="membership.html" class="b">Membership</a>
+                <a href="join-us.html" class="c">Join Us</a>
             </div>
     
-            <div class="image-box">
-                <h1 class="CloudLine">CloudLine</h1>
+            <div class="image-boxb">
+                <h1 class="mem">JOIN US</h1>
             </div>
-    
+
             <div class="content-box">
-                <div class="mini-box1">
-                    <h1>(Empty)</h1>
-                </div>
-    
-                <div class="mini-box2">
-                    <h1>(Empty)</h1>
-                </div>
-    
-                <div class="mini-box3">
-                    <h1>(Empty)</h1>
-                </div>
+                <div class="joinimg">
+                    <img src="#" alt="IMG">
             </div>
     
             <div class="footer">
