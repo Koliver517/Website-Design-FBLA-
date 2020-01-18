@@ -90,8 +90,8 @@ font-family: 'Abel', sans-serif;
         }
 
         .navigation-bar a:hover { 
-            border: 1px solid rgb(85, 193, 255);
-            color:rgb(85, 193, 255);
+            border: 1px solid  rgb(240, 243, 52);
+            color: rgb(252, 255, 55);
             transition: 0.2s ease;
             padding:1.5px;
         }
