@@ -4,25 +4,34 @@
         <title>Membership</title>
         <link rel="stylesheet" type="text/css" href="CSS/index_layout.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="images/sample-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
+        <link rel="icon" href="IMGS/sample-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
         <style>
-            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One|Abel|Dosis|Nanum+Gothic|Quicksand&display=swap');
             
-            .content-box1 {
-            grid-row: 3/6;
-            grid-column: 1/5;
-            background-repeat: repeat;
-            color: black;
-            height: 145%;
-            padding: 2%;
-        }
+            .image-boxc {
+                margin-top: 0px;
+                margin-left: 0.13%;
+                margin-right: 0.13%;
+                grid-row: 1/2;
+                grid-column: 1/5;
+                background-image: url('IMGS/9.jpg');
+                background-position: center;
+                background-size: cover;
+                color: white;
+                text-align: center;
+                padding: 20%;
+                z-index:2;
+                height:10px;
+                border-bottom:23px solid rgb(28, 38, 128);
+                width:270px;
+            }
 
             .img1{
                 width:200px;
                 height:100px;
                 z-index: 3;
-                left:-25px;
-                top:30px;
+                left:-36.5px;
+                top:20px;
                 position:absolute;
                 z-index:2;
             }
@@ -36,8 +45,8 @@
                 width:200px;
                 height:100px;
                 z-index: 3;
-                left:-25px;
-                top:40px;
+                left:-36.5px;
+                top:30px;
                 position:absolute;
                 z-index:6;
             }
@@ -46,38 +55,62 @@
                 width:200px;
                 height:100px;
                 z-index: 3;
-                left:-25px;
-                top:20px;
+                left:-38px;
+                top:10px;
                 position:absolute;
             }
 
             .mem{
                 margin-top: 0px;
-            margin-bottom: 50%;
-            font-family: 'Fredoka One', cursive;
-            font-size: 50px;
-            text-shadow:0px 5px rgb(255, 252, 53);
+                margin-bottom: 60%;
+                font-family: 'Fredoka One', cursive;
+                font-size: 50px;
+                color:rgb(28, 38, 128);
+                padding:5px;
+                border: 3px solid rgb(28, 38, 128);
+                position:absolute;
+                top:60px;
+                left:75px;
             }
 
             .mini-box1 > h1 {
                 font-size: 20px;
-                top:10px;
-                left:50px;
+                top:3px;
+                left:31px;
                 position: absolute;
+                font-family: 'Dosis', sans-serif;
             }
 
             .mini-box2 > h1 {
                 font-size: 20px;
-                top:10px;
-                left:50px;
+                top:3px;
+                left:26px;
                 position: absolute;
+                font-family: 'Dosis', sans-serif;
             }
 
             .mini-box3 > h1 {
                 font-size: 20px;
-                top:10px;
-                left:55px;
+                top:3px;
+                left:38px;
                 position: absolute;
+                font-family: 'Dosis', sans-serif;
+            }
+
+            h3 {
+                position: absolute;
+                top:218px;
+                font-size:9.5px;
+                font-family: 'Quicksand', sans-serif;
+                border-top: 2px solid rgb(252, 255, 55);
+                border-bottom: 12px solid rgb(28, 38, 128);
+                padding:10px;
+                text-align:center;
+                color:rgb(82, 82, 82);
+            }
+
+            ul {
+                font-family: 'Quicksand', sans-serif;
             }
 
         </style>
@@ -91,13 +124,13 @@
                 <a href="join-us.html" class="c">Join Us</a>
             </div>
     
-            <div class="image-box">
+            <div class="image-boxc">
                 <h1 class="mem">Membership</h1>
             </div>
     
             <div class="content-box1">
                 <div class="mini-box1">
-                    <h1>Silver</h1>
+                    <h1>SILVER</h1>
                     <img src="IMGS/SilverLogo.png" class="img1">
                     <br>
                     <br>
@@ -115,7 +148,7 @@
                 <div class="textbox1">Hello</div>
     
                 <div class="mini-box2">
-                    <h1>Bronze</h1>
+                    <h1>BRONZE</h1>
                     <img src="IMGS/BronzeLogo.png" class="img2">
                     <br>
                     <br>
@@ -131,15 +164,15 @@
                 </div>
     
                 <div class="mini-box3">
-                    <h1>Gold</h1>
+                    <h1>GOLD</h1>
                     <img src="IMGS/GoldLogo.png" class="img3">
                     <br>
                     <br>
                     <br>
                     <br>
                     <br>
-                    <div style="font-size: 12.5px;">
-                    <ul>
+                    <div>
+                    <ul style="font-size:10px;">
                         <li>Personalized Premium Beverages and Meals</li>
                         <li>Single row seating with seat adjustments</li>
                         <li>Plush Throw pillows and Blankets</li>
@@ -147,10 +180,26 @@
                     </ul>
                     </div>
                 </div>
+
+                <div>
+                    <h3>
+                        At CloudLine we strive to make your experience in the air as comfortable as possible, 
+                        providing not only food and beverages, but also entertainment.All customers get to become apart of the Cloud Crowd when they purchase their tickets with Cloud Line, 
+                        Starting you in the free Bronze Tier that includes some complimentary items to enjoy on your flight. 
+                        However we also offer two other tiers for Cloud Crowd members who want to recieve a more personalized, 
+                        as well as a more comfortable trip. For only 4.99 extra fee with your purchase of a ticket you could enjoy your 
+                        trip with all the bennifits of the Silver Cloud Crowd Tier. And for those who wish for the most personalized and 
+                        luxurious travel expereince you can experience with CloudLine, The Gold Tier can be experience by you for only 
+                        14.99 extra per your flight ticket.</h3>
+                </div>
             </div>
     
-            <div class="footer">
-                <h4>CloudLine</h4>
+            <div class="footera">
+                <h4 class="footerN">CloudLine</h4>
+                <a class="contact-us" href="#">Contact Us</a>
+                <a href="#"><img class="facebook" src="IMGS/Facebook.png"></a>
+                <a href="#"><img class="instagram" src="IMGS/Instagram.png"></a>
+                <a href="#"><img class="twitter" src="IMGS/Twitter.png"></a>
             </div>
         </div>
     </body>
