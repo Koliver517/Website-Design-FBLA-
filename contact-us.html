@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CloudLine</title>
+        <title>Contact Us</title>
         <link rel="stylesheet" type="text/css" href="CSS/index_layout.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="IMGS/sample-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
         <style>
-            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One|Abel|Dosis|Nanum+Gothic|Quicksand&display=swap');
-            
-            .cloudlineimg {
-                height: 65%;
-                width: 65%;
-                position: absolute;
-                z-index:3;
-                left:90px;
-                top: 30px;
-                opacity: 90%;
-            }
-
-            .navigation-barI  {
+        .navigation-barI  {
             grid-row: 1/2;
             grid-column: 1/5;
-            background:linear-gradient( rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158));
+            background-color: black;
             font-size: 1.8vw;
             padding: 1%;
             padding-top: 2%;
+            padding-bottom: 3.2%;
             height: 110%;
             text-align: center;
             font-family: 'Josefin Sans', sans-serif;
@@ -84,42 +73,40 @@
             padding:1.5px;
         }
 
+        .phone {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2vw;
+        }
+
+        .mail {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2vw;
+        }
+
+        .location {
+            font-family: 'Fredoka One', cursive;
+            font-size: 2vw;
+        }
+
         </style>
     </head>
-<body>
-    <div class="grid-container">
-        <div class="navigation-barI">
-            <a href="index.html"><img class="navigation-logo" src="IMGS/Clogo1.png"></a>
-            <a href="booking.html" class="a">Booking</a>
-            <a href="membership.html" class="b">Membership</a>
-            <a href="join-us.html" class="c">Join Us</a>
-        </div>
-
-        <div class="image-box">
-            <h1 class="CloudLine"><img src="IMGS/Cloud Line Logo.png" class="cloudlineimg"></h1>
-        </div>
-
-        <div class="content-boxV2">
-            <div class="mini-box1-2">
-                <h2>Fly with CloudLine, explore the World the right way</h2>
+    <body>
+        <div class="grid-container">
+            <div class="navigation-barI">
+                <a href="index.html"><img class="navigation-logo" src="IMGS/Clogo1.png"></a>
+                <a href="booking.html" class="a">Booking</a>
+                <a href="membership.html" class="b">Membership</a>
+                <a href="join-us.html" class="c">Join Us</a>
             </div>
 
-            <div class="mini-box2-2">
-                <h2>we offer a multitude of commodities such as food, WiFi, and much more</h2>
-            </div>
-
-            <div class="mini-box3-2">
-                <h2>Your safety is our priority</h2>
+            <div class="contact-info">
+                <h1 class="contact-usL">Contact Us!</h1>
+                    <ul>
+                        <li class="phone">+602-000-0000</li>
+                        <li class="mail">CloudLineFBLA@gmail.com</li>
+                        <li class="location">1617 W Williams Dr, Phoenix, AZ 85027</li>
+                    </ul>
             </div>
         </div>
-
-        <div class="footerH">
-            <h4 class="footerN">CloudLine</h4>
-            <a class="contact-us" href="contact-us.html">Contact Us</a>
-            <a href="#"><img class="facebook" src="IMGS/Facebook.png"></a>
-            <a href="#"><img class="instagram" src="IMGS/Instagram.png"></a>
-            <a href="#"><img class="twitter" src="IMGS/Twitter.png"></a>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
