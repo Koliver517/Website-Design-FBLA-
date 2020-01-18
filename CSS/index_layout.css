@@ -216,13 +216,14 @@ font-family: 'Abel', sans-serif;
             width: 20%;
             position: absolute;
             left: 5%;
-            top: 75%;
-            padding: 2%;
+            top: 84.5%;
+            padding: 2.5%;
             font-size: 2vw;
             text-align: center;
             color: white;
             font-family: 'Amatic SC', cursive;
-            background-color: #767676;
+            background-color: #7676769a;
+            border-radius: 10px 10px 10px 10px;
         }
 
         .mini-box2-2 {
@@ -230,12 +231,13 @@ font-family: 'Abel', sans-serif;
             position: absolute;
             font-size: 2vw;
             left: 39%;
-            top: 72.8%;
-            padding: 1%;
+            top: 82%;
+            padding: 2%;
             text-align: center;
             color: white;
             font-family: 'Amatic SC', cursive;
-            background-color: #767676;
+            background-color: #7676769a;
+            border-radius: 10px 10px 10px 10px;
         }
 
         .mini-box3-2 {
@@ -243,12 +245,14 @@ font-family: 'Abel', sans-serif;
             position: absolute;
             left: 70%;
             font-size: 2vw;
-            top: 77%;
+            top: 85%;
+            height:50px;
             padding: 3%;
             text-align: center;
             color: white;
             font-family: 'Amatic SC', cursive;
-            background-color: #767676;
+            background-color: #7676769a;
+            border-radius: 10px 10px 10px 10px;
         }
 
         .mini-box3:hover {
@@ -343,7 +347,7 @@ font-family: 'Abel', sans-serif;
             font-size: 2.5vw;
             position: absolute;
             left: 0;
-            bottom: -30%;
+            bottom: -50%;
             padding: 3%;
             width: 94.02%;
             font-family: 'Fredoka One', cursive;
