@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="IMGS/sample-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
         <style>
-            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One|Abel|Dosis|Nanum+Gothic|Quicksand&display=swap');
             
             .cloudlineimg {
                 height: 65%;
@@ -18,11 +18,77 @@
                 opacity: 90%;
             }
 
+            .navigation-barI  {
+            grid-row: 1/2;
+            grid-column: 1/5;
+            background:linear-gradient( rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158));
+            font-size: 1.8vw;
+            padding: 1%;
+            padding-top: 2%;
+            height: 110%;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            z-index: 4;
+        }
+
+        .navigation-logo {
+            width: 55px;
+            left: 10px;
+            top: 0px;
+            position: absolute;
+            transition: 0.3s ease;
+            z-index: 4;
+        }
+
+        .navigation-logo:hover {
+            width: 50px;
+        }
+
+        .navigation-barI a.a { 
+            color: white;
+            text-decoration: none;
+            transition: 0.2s ease;
+            right: 120px;
+            position: absolute;
+            top: 8px;
+            font-family: 'Fredoka One', cursive;
+            border-radius: 5px;
+        }
+
+        .navigation-barI a.b { 
+            color: white;
+            text-decoration: none;
+            transition: 0.2s ease;
+            right: 54px;
+            position: absolute;
+            top: 8px;
+            font-family: 'Fredoka One', cursive;
+            border-radius: 5px;
+        }
+
+        .navigation-barI a.c { 
+            color: white;
+            text-decoration: none;
+            transition: 0.2s ease;
+            right:10px;
+            position: absolute;
+            top:8px;
+            font-family: 'Fredoka One', cursive;
+            border-radius:5px;
+        }
+
+        .navigation-barI  a:hover { 
+            border: 1px solid  rgb(151, 214, 255);
+            color: rgb(151, 214, 255);
+            transition: 0.2s ease;
+            padding:1.5px;
+        }
+
         </style>
     </head>
 <body>
     <div class="grid-container">
-        <div class="navigation-bar">
+        <div class="navigation-barI">
             <a href="index.html"><img class="navigation-logo" src="IMGS/Clogo1.png"></a>
             <a href="booking.html" class="a">Booking</a>
             <a href="membership.html" class="b">Membership</a>

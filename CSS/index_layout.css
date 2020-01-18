@@ -2,7 +2,7 @@
 
 /*MOBILE*/ @media only screen and (min-width:300px) and (max-width:767px) {
     /*Fonts*/
-    @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One|Abel|Dosis|Nanum+Gothic|Quicksand&display=swap');
     /*Font Library*
     font-family: 'Amatic SC', cursive;
     font-family: 'ABeeZee', sans-serif;
@@ -13,7 +13,6 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Dosis', sans-serif;
 font-family: 'Abel', sans-serif;
     *Place fonts here*/
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
     
 
     /*HTML Styles*/
@@ -324,6 +323,23 @@ font-family: 'Abel', sans-serif;
             top:640px;
             height:20px;
             border-top:10px solid rgb(28, 38, 128);
+        }
+
+        .footerJ {
+            grid-row: 8/9;
+            grid-column: 1/5;
+            background-color: #767676;
+            color: white;
+            font-size: 2.5vw;
+            position: absolute;
+            left: 0;
+            bottom: -30%;
+            padding: 3%;
+            width: 94.02%;
+            font-family: 'Fredoka One', cursive;
+            top:540px;
+            height:20px;
+            border-top:10px solid rgb(255, 198, 41);
         }
 
         .footerN {

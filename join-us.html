@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="IMGS/sample-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
         <style>
-            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=ABeeZee|Amatic+SC|Fredoka+One|Abel|Dosis|Nanum+Gothic|Quicksand&display=swap');
 
             .mem{
                 margin-top: -25px;
@@ -18,6 +18,63 @@
                 text-shadow:0px 3px rgb(255, 198, 41);
                 box-shadow:0px 3px rgb(255, 198, 41);
             }
+
+            .navigation-barJ {
+            grid-row: 1/2;
+            grid-column: 1/5;
+            background:linear-gradient( rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158));
+            font-size: 1.8vw;
+            padding: 1%;
+            padding-top: 2%;
+            height: 110%;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+            z-index: 4;
+        }
+
+        .navigation-logo:hover {
+            width: 50px;
+        }
+
+        .navigation-barJ a.a { 
+            color: white;
+            text-decoration: none;
+            transition: 0.2s ease;
+            right: 120px;
+            position: absolute;
+            top: 8px;
+            font-family: 'Fredoka One', cursive;
+            border-radius: 5px;
+        }
+
+        .navigation-barJ a.b { 
+            color: white;
+            text-decoration: none;
+            transition: 0.2s ease;
+            right: 54px;
+            position: absolute;
+            top: 8px;
+            font-family: 'Fredoka One', cursive;
+            border-radius: 5px;
+        }
+
+        .navigation-barJ a.c { 
+            color: white;
+            text-decoration: none;
+            transition: 0.2s ease;
+            right:10px;
+            position: absolute;
+            top:8px;
+            font-family: 'Fredoka One', cursive;
+            border-radius:5px;
+        }
+
+            .navigation-barJ a:hover { 
+            border: 1px solid rgb(255, 198, 41);
+            color: rgb(255, 198, 41);
+            transition: 0.2s ease;
+            padding:1.5px;
+        }
 
             .image-boxb {
                 margin-top: 0px;
@@ -33,24 +90,71 @@
                 padding: 20%;
                 z-index:2;
                 height:8px;
-                border-bottom:23px solid rgb(255, 198, 41);;
+                border-bottom:23px solid rgb(255, 198, 41);
                 width:323px
             }
 
-            .joinimg {
-                width:100px;
-                height:100px;
+            .jointext {
+                width:350px;
+                height:140px;
                 position: absolute;
-                left:30px;
-                top:20px;
+                left:100px;
+                top:270px;
                 float:left;
-                background-color:blue;
+                text-align:center;
+                font-family: 'Quicksand', sans-serif;
+                color:rgb(26, 25, 25);
+                font-size:16px;
+                border-top:2px solid rgb(255, 198, 41);
+                border-bottom:2px solid rgb(255, 198, 41);
             }
+
+            .content-boxJ {
+            grid-row: 3/6;
+            grid-column: 1/5;
+            background-image: url(IMGS/back_pattern.png);
+            background-repeat: repeat;
+            color: black;
+            height: 300%;
+            padding: 2%;
+        }
+
+        .button {
+            position:absolute;
+            top:180px;
+            left:90px;
+            color:rgb(255, 198, 41);
+            border:2px solid rgb(255, 198, 41);
+            font-family: 'Quicksand', sans-serif;
+            font-weight:10px;
+            font-size:25px;
+            padding:5px;
+            background-color:transparent;
+        }
+
+        .button:hover {
+            position:absolute;
+            top:180px;
+            left:85px;
+            background-color:rgb(252, 255, 53);
+            color:rgb(255, 198, 41);
+            border:2px solid rgb(255, 198, 41);
+            font-family: 'Quicksand', sans-serif;
+            font-weight:10px;
+            font-size:25px;
+            transition:.5s ease;
+            padding:10px;
+        }
+
+        .button > a {
+            text-decoration:none;
+            color:rgb(255, 198, 41);
+        }
         </style>
     </head>
     <body>
         <div class="grid-container">
-            <div class="navigation-bar">
+            <div class="navigation-barJ">
                 <a href="index.html"><img class="navigation-logo" src="IMGS/Clogo1.png"></a>
                 <a href="booking.html" class="a">Booking</a>
                 <a href="membership.html" class="b">Membership</a>
@@ -61,12 +165,15 @@
                 <h1 class="mem">JOIN US</h1>
             </div>
 
-            <div class="content-box">
-                <div class="joinimg">
-                    <img src="#" alt="IMG">
+            <div class="content-boxJ">
+                <div class="jointext">
+                    <h4>Want to be apart of the dream team that is the Cloud Crew? 
+                        Then download the Application PDF below, fill it out, and either email it to 
+                        <a href="matilo:CloudLine@cloudline.com" style="text-decoration:none; color:rgb(49, 49, 49)">CloudLine@cloudline.com</a> or send a printed application to Sth 14th St, 87609 Pheonix, AZ through your local postal service. Join the Cloud Crew Today!</h4>
+                    <button type="button" name="Application" class="button"><a href="#">APPLICATION</a></button>
             </div>
     
-            <div class="footer">
+            <div class="footerJ">
                 <h4 class="footerN">CloudLine</h4>
                 <a class="contact-us" href="#">Contact Us</a>
                 <a href="#"><img class="facebook" src="IMGS/Facebook.png"></a>
